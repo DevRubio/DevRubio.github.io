@@ -4,6 +4,7 @@ import { Home } from "../Home"
 import { Education } from "../Education"
 import { Projects } from "../Projects"
 import { NotFound } from "../NotFound"
+import { Layout } from "../../Components/Layout"
 
 const AppRoutes = () =>{
     const routes = useRoutes([
@@ -17,8 +18,11 @@ const AppRoutes = () =>{
 const AppUI = () => {
     return (
         <BrowserRouter>
-            <AppRoutes/>
+            
             <NavBar/>
+            <Layout>
+            <AppRoutes/>
+            </Layout>
         </BrowserRouter>
         
     )
