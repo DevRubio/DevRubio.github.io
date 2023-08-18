@@ -13,13 +13,13 @@ const Home = () =>{
                     <img 
                         alt='photo'
                         className='hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[500px]' 
-                        src='/src/assets/img/Profile.png'/>
+                        src='/assets/img/Profile.png'/>
                 </div>
                 ):(
                 <img
                     alt='photo'
                     className='z-10 w-full max-w-[400px] md:max-w-[600px]'
-                    src='/src/assets/img/Profile.png'
+                    src='/assets/img/Profile.png'
                 />
                 )}
             </div> 

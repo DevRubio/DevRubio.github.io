@@ -18,14 +18,14 @@ const Construction = ({page}) => {
             <img
               alt="profile"
               className="hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[400px]"
-              src="/src/assets/img/astronauta-programador.gif"
+              src="/assets/img/astronauta-programador.gif"
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="/src/assets/img/astronauta-programador.gif"
+            src="/assets/img/astronauta-programador.gif"
           />
         )}
       </div>
