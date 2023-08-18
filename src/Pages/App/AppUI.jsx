@@ -17,11 +17,10 @@ const AppRoutes = () =>{
 }
 const AppUI = () => {
     return (
-        <BrowserRouter>
-            
+        <BrowserRouter>            
             <NavBar/>
             <Layout>
-            <AppRoutes/>
+                <AppRoutes/>
             </Layout>
         </BrowserRouter>
         

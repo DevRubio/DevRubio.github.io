@@ -1,8 +1,12 @@
+import Construction from "../Construction/index"
+
 const Education = () =>{
     return(
-        <div>
-            Education
-        </div>
+        <section>
+            <Construction
+                page={"Education"}
+            />
+        </section>     
     )
 }
 export { Education }

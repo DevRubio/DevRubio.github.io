@@ -1,8 +1,8 @@
 const Layout = ({children}) =>{
-    return(
-        <div className='flex flex-col items-center mt-20'>
-            {children}
-        </div>
+    return(       
+        <section className='w-5/6 mx-auto md:h-full'>               
+            {children} 
+        </section>
     )
 }
 export { Layout }

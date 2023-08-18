@@ -1,8 +1,11 @@
+import Construction from "../Construction"
 const Projects = () =>{
     return(
-        <div>
-            Projects
-        </div>
+        <section>
+            <Construction
+                page={"Projects"}
+            />
+        </section>
     )
 }
 export { Projects }
