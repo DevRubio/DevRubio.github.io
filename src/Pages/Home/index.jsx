@@ -24,10 +24,10 @@ const Home = () =>{
                 )}
             </div> 
             {/*Main Text */}
-            <div className='z-30 basis-2/5 mt-12 md:mt-32 animate-fade-right animate-once animate-ease-linear'>
+            <div className='z-30 basis-2/5 mt-12 md:mt-32'>
                 {/*Heading */}
-                <div>                    
-                    <p className='text-5xl font-playfair z-10 text-center md:text-start'>
+                <div className=''>                    
+                    <p className='text-5xl font-playfair z-10 text-center md:text-start animate-jump animate-duration-[600ms]'>
                         Oscar {""}
                         <span
                         className='xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
@@ -36,7 +36,7 @@ const Home = () =>{
                         Rubio
                         </span>
                     </p>
-                    <p className='mt-10 mb-4 text-sm text-center md:text-start'>
+                    <p className='mt-10 mb-4 text-sm text-center md:text-start animate-fade-right'>
                         I am a software engineer passionate about developing innovative and effective solutions using emerging technologies. 
                         I specialize in JavaScript and its associated libraries. I have a keen interest in artificial intelligence and its potential to 
                         transform the world we live in. I enjoy experimenting with new tools and technologies to find creative ways to apply artificial 
@@ -44,7 +44,7 @@ const Home = () =>{
                     </p>
                 </div>
                 {/*Call to Actions */}
-                <div className='flex mt-5 justify-center md:justify-start'>
+                <div className='flex mt-5 justify-center md:justify-start animate-flip-up animate-ease-out'>
                     <span className='bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
                 hover:bg-blue hover:text-white transition duration-500'>
                         Contact Me
@@ -60,7 +60,7 @@ const Home = () =>{
                     </a>                  
                 </div>
                 {/*Icons */}
-                <div className='flex mt-5 justify-center md:justify-start'>
+                <div className='flex mt-5 justify-center md:justify-start animate-flip-down animate-ease-out'>
                     <SocialMediaIcons/>
                 </div>
             </div>
