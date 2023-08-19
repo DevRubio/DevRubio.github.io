@@ -24,7 +24,7 @@ const Home = () =>{
                 )}
             </div> 
             {/*Main Text */}
-            <div className='z-30 basis-2/5 mt-12 md:mt-32'>
+            <div className='z-30 basis-2/5 mt-12 md:mt-32 animate-fade-right animate-once animate-ease-linear'>
                 {/*Heading */}
                 <div>                    
                     <p className='text-5xl font-playfair z-10 text-center md:text-start'>
@@ -51,7 +51,7 @@ const Home = () =>{
                     </span>  
                     <a 
                         className='rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5'
-                        href="https://web.whatsapp.com/send/?phone=5733104845200&text=Let's+Talk&type=phone_number&app_absent=0"
+                        href="https://wa.me/573118344237"
                         target='_blank'
                     >
                         <p className='bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair'>
