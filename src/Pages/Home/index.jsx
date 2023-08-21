@@ -44,7 +44,7 @@ const Home = () =>{
                     </p>
                 </div>
                 {/*Call to Actions */}
-                <div className='flex mt-5 justify-center md:justify-start animate-flip-up animate-ease-out'>
+                <div className='flex mt-1 justify-center md:justify-start animate-flip-up animate-ease-out'>
                     <span className='bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
                 hover:bg-blue hover:text-white transition duration-500'>
                         Contact Me
@@ -60,7 +60,7 @@ const Home = () =>{
                     </a>                  
                 </div>
                 {/*Icons */}
-                <div className='flex mt-5 justify-center md:justify-start animate-flip-down animate-ease-out'>
+                <div className='flex justify-center md:justify-start animate-flip-down animate-ease-out'>
                     <SocialMediaIcons/>
                 </div>
             </div>
