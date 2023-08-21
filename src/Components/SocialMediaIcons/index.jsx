@@ -17,7 +17,9 @@ const SocialMediaIcons = () =>{
                 target="_blank"
                 rel="noreferrer"
             >
-                <IconGithub/>
+                <IconGithub
+                    size='40px'
+                />
             </a>
         </div>
     )
