@@ -9,8 +9,8 @@ import { Layout } from "../../Components/Layout"
 const AppRoutes = () =>{
     const routes = useRoutes([
         {path: "/", element: <Home/>},
-        {path: "/education", element: <Education/>},
         {path: "/projects", element: <Projects/>},
+        {path: "/education", element: <Education/>},        
         {path: "/*", element: <NotFound/>}
     ])
     return routes
