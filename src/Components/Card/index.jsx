@@ -9,7 +9,7 @@ const Card = ({ Animate, Title, Description, Repo, Deploy }) => {
         {Title}
       </h5>
 
-      <p className="mb-3 font-normal text-justify text-white dark:text-gray-400 text-sm h-[140px]">
+      <p className="mb-3 font-normal text-justify text-white dark:text-gray-400 text-sm sm:h-[140px]">
         {Description}
       </p>
       

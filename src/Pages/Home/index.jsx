@@ -4,7 +4,7 @@ import SocialMediaIcons from '../../Components/SocialMediaIcons'
 const Home = () =>{
     const isAboveLarge = useMediaQuery("(min-width: 1060px)")
     return(
-        <section className='md:flex md:justify-between md:items-center gap-16 md:h-full py-10'>            
+        <section className='md:flex md:justify-between md:items-center gap-16 md:h-full py-3'>            
             {/*Imagen Section */}
             <div className='basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2'>
                 {isAboveLarge ? (
@@ -60,7 +60,7 @@ const Home = () =>{
                     </a>                  
                 </div>
                 {/*Icons */}
-                <div className='flex justify-center md:justify-start animate-flip-down animate-ease-out'>
+                <div className='flex justify-center mt-3 md:justify-start animate-flip-down animate-ease-out'>
                     <SocialMediaIcons/>
                 </div>
             </div>

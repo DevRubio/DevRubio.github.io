@@ -43,7 +43,7 @@ const Projects = () => {
         </div>
         {/*Projects */}
         <div className="flex justify-center">
-            <div className="sm:grid sm:grid-cols-3 gap-4">                
+            <div className="grid ss:grid-cols-2 md:grid-cols-3 gap-3">                
                 {proyect.map(item =>(
                     <Card
                         key={item.Title}
